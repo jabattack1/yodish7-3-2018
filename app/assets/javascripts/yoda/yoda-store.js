@@ -3,7 +3,7 @@
 
 // let eE = new EventEmitter();
 
-var ExampleStore = new EventEmitter();
+let ExampleStore = new EventEmitter();
 
  const yodaStoreChangeEvent = 'yoda-store-change-event';
 
@@ -48,11 +48,11 @@ var ExampleStore = new EventEmitter();
 
  	_checkSubmitNewMessage() {
  		if(this._newMessage.length > 0){
-			var words = this._newMessage;
-			// var languageSelect = $('.language').find(':selected').val();
+			let words = this._newMessage;
+			// let languageSelect = $('.language').find(':selected').val();
 			// console.log(words);
 			sessionStorage.setItem("memory", words);
-			var deleteRecall = sessionStorage.getItem("memory");
+			let deleteRecall = sessionStorage.getItem("memory");
 
 
 
@@ -85,7 +85,7 @@ var ExampleStore = new EventEmitter();
  	}
  }
 
-var yodaStore = new YodaStore();
+let yodaStore = new YodaStore();
 
 
 
