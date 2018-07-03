@@ -1,10 +1,10 @@
 // import dispatcher from './chat-dispatcher';
 
-let yodaActionsCreators = {
+var yodaActionsCreators = {
 
 	changeNewMessage(newMessage) {
 
-		let action = {
+		var action = {
 			type: 'change-new-message',
 			payload: {
 				content: newMessage
@@ -17,7 +17,7 @@ let yodaActionsCreators = {
 
 	submitNewMessage() {
 
-		let action = {
+		var action = {
 			type: 'submit-new-message'
 		};
 
