@@ -4,7 +4,7 @@
 // import ChatMetrics from './chat-metrics.react';
 
 
-// var YodaController = createReactClass({
+// let YodaController = createReactClass({
 
 // 	getInitialState() {
 // 		return this.getState();
