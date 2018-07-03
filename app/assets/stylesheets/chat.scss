@@ -1,0 +1,163 @@
+.yodas-controller {
+	font-family: Arial, sans-serif;
+}
+
+.chat-container {
+
+	font-family: Arial, sans-serif;
+	width: 300px;
+	height: 350px;
+	padding: 16px;
+	border-radius:20px;
+
+	.messages {
+		height: 250px;
+		overflow:auto;
+/*		overflow-y: scroll;
+		overflow-x: none;*/
+		padding-bottom: 10px;
+		max-width:400px;
+    	word-wrap:break-word;
+    	color:white;
+    	font-family: 'Montserrat', sans-serif;
+
+		.message {
+			border-bottom: 1px dotted lightgray;
+			padding: 4px 6px;
+			padding-bottom:12px;
+
+			&:nth-of-type(even){
+    			// background-color:red;
+    			font-size:10px;
+    			padding:1px 6px;
+    			margin-top:-12px;
+    			border-bottom: 0;
+    		}
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+
+	.message-input {
+
+		input {
+			font-size: 16px;
+			padding: 1px 4px;
+			width: 96%;
+			height: 30px;
+			border: 2px solid gray;
+			outline: 0;
+			margin-top:5px
+		}
+	}
+
+	.message-button {
+
+		button {
+			margin: 8px 0 0 0;
+			width: 100%;
+			background: #0066A2;
+			color: white;
+			border-style: outset;
+			border-color: #0066A2;
+			height: 25px;
+			font: bold 15px arial, sans-serif;
+			text-shadow:none;
+			outline:none;
+		}
+
+		button:hover {
+			cursor:pointer;
+		}
+	}
+
+	.char-count{
+		margin-top:5px;
+		color:white;
+		// text-align:center;
+	}
+
+	.count {
+		margin: 8px 0 0 3px;
+		font-size:10px;
+	}
+
+	.language {
+		position:absolute;
+		margin-top:8px;
+		margin-left:228px
+	}
+}
+
+.chat-container2 {
+
+	font-family: Arial, sans-serif;
+	width: 300px;
+	height: 350px;
+	// margin: 20px 10px;
+	// border: 1px solid lightgray;
+	padding: 16px;
+	border-radius:20px;
+	// position: absolute;
+	// margin-left: 150px;
+	// margin-top: 90px;
+	// background-color:black;
+
+	.messages {
+		height: 335px;
+		overflow:auto;
+/*		overflow-y: scroll;
+		overflow-x: none;*/
+		padding-bottom: 10px;
+		max-width:400px;
+    	word-wrap:break-word;
+    	color:white;
+    	font-family: 'Montserrat', sans-serif;
+
+		.message {
+			border-bottom: 1px dotted lightgray;
+			padding: 4px 6px;
+			padding-bottom:12px;
+
+			&:nth-of-type(even){
+    			// background-color:red;
+    			font-size:10px;
+    			padding:1px 6px;
+    			margin-top:-12px;
+    			border-bottom: 0;
+    		}
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+
+	.message-input {
+
+		input {
+			font-size: 16px;
+			padding: 1px 4px;
+			width: 96%;
+			height: 30px;
+			border: 2px solid gray;
+			outline: 0;
+			margin-top:5px
+		}
+	}
+
+	.message-button {
+
+		button {
+			margin: 8px 0 0 0;
+		}
+	}
+
+	.count {
+		margin: 8px 0 0 3px;
+		font-size:10px;
+	}
+}
+

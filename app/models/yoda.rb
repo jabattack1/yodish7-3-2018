@@ -1,0 +1,2 @@
+class Yoda < ApplicationRecord
+end
